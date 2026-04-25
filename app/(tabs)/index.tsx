@@ -106,7 +106,7 @@ export default function HomeScreen() {
               imageUrl="https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-tradicional-jRiPgWWWnbNega6Nr A8939.webp"
               fallbackUrl="https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-tradicional-VG8DusFRfwyV9pZqC5kjwP.png"
               colors={colors}
-              onOrder={() => openWhatsApp("Olá! Quero pedir um Pundim Tradicional! 🍮")}
+              onOrder={() => openWhatsApp("Olá! Quero pedir um Pundim Tradicional 120ml (pronta entrega)! 🍮")}
             />
             <FlavorCard
               name="Doce de Leite"
@@ -114,7 +114,7 @@ export default function HomeScreen() {
               imageUrl="https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-doce-leite-fJMmxqN88RyXYahMr4oSE6.webp"
               fallbackUrl="https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-doce-leite-mDiTzmXu5pRQZvGwYH6ZoR.png"
               colors={colors}
-              onOrder={() => openWhatsApp("Olá! Quero pedir um Pundim de Doce de Leite! 🍯")}
+              onOrder={() => openWhatsApp("Olá! Quero pedir um Pundim de Doce de Leite 120ml (pronta entrega)! 🍯")}
             />
             <FlavorCard
               name="Chocolate"
@@ -122,7 +122,7 @@ export default function HomeScreen() {
               imageUrl="https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-chocolate-LfJnrodHqxedwq6GpZGsUX.webp"
               fallbackUrl="https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-chocolate-mTZYKbXYdKGDS3PrWKtAvL.png"
               colors={colors}
-              onOrder={() => openWhatsApp("Olá! Quero pedir um Pundim de Chocolate! 🍫")}
+              onOrder={() => openWhatsApp("Olá! Quero pedir um Pundim de Chocolate 120ml (pronta entrega)! 🍫")}
             />
           </ScrollView>
         </View>

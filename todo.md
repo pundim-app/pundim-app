@@ -17,3 +17,7 @@
 - [x] Atualizar app.config.ts com nome e logo da Pundim
 - [x] Salvar checkpoint final
 - [x] Atualizar mascote para usar a mesma imagem do Instagram
+- [x] Adicionar tamanhos disponíveis (120ml pronta entrega, 500ml e 1000ml por encomenda)
+- [x] Criar badges de tamanho nos cards de sabores
+- [x] Adicionar aviso de 24h de antecedência para encomendas
+- [x] Atualizar mensagens do WhatsApp com informações de tamanho

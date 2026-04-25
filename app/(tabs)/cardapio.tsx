@@ -27,7 +27,7 @@ const FLAVORS = [
     imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-tradicional-VG8DusFRfwyV9pZqC5kjwP.png",
     badge: "⭐ Mais pedido",
     badgeColor: "#F07800",
-    orderMsg: "Olá! Quero pedir um Pundim Tradicional! 🍮 Vi pelo app!",
+    orderMsg: "Olá! Quero pedir um Pundim Tradicional 120ml (pronta entrega)! 🍮 Vi pelo app!",
   },
   {
     id: "doce-leite",
@@ -37,7 +37,7 @@ const FLAVORS = [
     imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-doce-leite-mDiTzmXu5pRQZvGwYH6ZoR.png",
     badge: "🆕 Novidade",
     badgeColor: "#D4860A",
-    orderMsg: "Olá! Quero pedir um Pundim de Doce de Leite! 🍯 Vi pelo app!",
+    orderMsg: "Olá! Quero pedir um Pundim de Doce de Leite 120ml (pronta entrega)! 🍯 Vi pelo app!",
   },
   {
     id: "chocolate",
@@ -47,7 +47,7 @@ const FLAVORS = [
     imageUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-chocolate-mTZYKbXYdKGDS3PrWKtAvL.png",
     badge: "🍫 Especial",
     badgeColor: "#5C2D00",
-    orderMsg: "Olá! Quero pedir um Pundim de Chocolate! 🍫 Vi pelo app!",
+    orderMsg: "Olá! Quero pedir um Pundim de Chocolate 120ml (pronta entrega)! 🍫 Vi pelo app!",
   },
 ];
 
@@ -71,7 +71,8 @@ export default function CardapioScreen() {
         {/* Info Banner */}
         <View style={[styles.infoBanner, { backgroundColor: "#FFF3E0", borderColor: "#F07800" }]}>
           <Text style={[styles.infoText, { color: "#3D1A00" }]}>
-            📦 Disponível em tamanho único · Pronta entrega e encomendas
+            🍮 120ml - Pronta entrega{"\n"}
+            📦 500ml e 1000ml - Encomenda (24h de antecedência)
           </Text>
         </View>
 
@@ -115,13 +116,13 @@ export default function CardapioScreen() {
 
         {/* Encomendas */}
         <View style={[styles.encomendasCard, { backgroundColor: colors.primary }]}>
-          <Text style={styles.encomendasTitle}>🎉 Encomendas para eventos</Text>
+          <Text style={styles.encomendasTitle}>🎉 Tamanhos para Encomenda</Text>
           <Text style={styles.encomendasDesc}>
-            Aniversários, confraternizações, casamentos e muito mais. Entre em contato e faça seu pedido especial!
+            500ml e 1000ml disponíveis por encomenda. Solicite com pelo menos 24 horas de antecedência!
           </Text>
           <TouchableOpacity
             style={[styles.encomendasBtn, { backgroundColor: "#fff" }]}
-            onPress={() => openWhatsApp("Olá! Quero fazer uma encomenda especial de Pundim para um evento! 🎉")}
+            onPress={() => openWhatsApp("Olá! Gostaria de fazer uma encomenda de Pundim nos tamanhos 500ml ou 1000ml! 🎉")}
             activeOpacity={0.85}
           >
             <Text style={[styles.encomendasBtnText, { color: colors.primary }]}>
