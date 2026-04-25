@@ -42,7 +42,7 @@ export default function HomeScreen() {
         <View style={[styles.header, { backgroundColor: colors.primary }]}>
           <View style={styles.headerContent}>
             <Image
-              source={{ uri: "https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-icon-kfgrio6KTfADXe8QLPKXPu.webp" }}
+              source={require("@/assets/images/icon.png")}
               style={styles.headerLogo}
               resizeMode="contain"
             />
