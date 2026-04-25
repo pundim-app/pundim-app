@@ -16,3 +16,4 @@
 - [x] Configurar splash screen com identidade visual
 - [x] Atualizar app.config.ts com nome e logo da Pundim
 - [x] Salvar checkpoint final
+- [x] Atualizar mascote para usar a mesma imagem do Instagram
