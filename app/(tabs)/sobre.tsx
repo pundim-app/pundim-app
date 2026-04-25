@@ -45,7 +45,7 @@ export default function SobreScreen() {
         {/* Mascot + Brand */}
         <View style={[styles.brandSection, { backgroundColor: colors.surface }]}>
           <Image
-            source={{ uri: "https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-icon-kfgrio6KTfADXe8QLPKXPu.webp" }}
+            source={require("@/assets/images/icon.png")}
             style={styles.mascotImage}
             resizeMode="contain"
           />
@@ -125,7 +125,7 @@ export default function SobreScreen() {
         {/* Footer */}
         <View style={[styles.footer, { borderTopColor: colors.border }]}>
           <Image
-            source={{ uri: "https://d2xsxph8kpxj0f.cloudfront.net/310519663598842721/X7Y5kDSy7vSBGgow3zPRQT/pundim-icon-kfgrio6KTfADXe8QLPKXPu.webp" }}
+            source={require("@/assets/images/icon.png")}
             style={styles.footerLogo}
             resizeMode="contain"
           />
