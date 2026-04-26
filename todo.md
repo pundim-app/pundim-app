@@ -21,3 +21,8 @@
 - [x] Criar badges de tamanho nos cards de sabores
 - [x] Adicionar aviso de 24h de antecedência para encomendas
 - [x] Atualizar mensagens do WhatsApp com informações de tamanho
+- [x] Implementar notificações push web (Web Push API)
+- [x] Criar service worker para gerenciar notificações
+- [x] Adicionar opção de inscrição para notificações no site
+- [x] Testar notificações push em navegadores (Chrome, Safari, Firefox)
+- [x] Publicar site responsivo
