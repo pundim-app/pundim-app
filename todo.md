@@ -26,3 +26,8 @@
 - [x] Adicionar opção de inscrição para notificações no site
 - [x] Testar notificações push em navegadores (Chrome, Safari, Firefox)
 - [x] Publicar site responsivo
+- [x] Criar painel de admin para enviar notificações customizadas
+- [x] Implementar autenticação simples para o painel de admin
+- [x] Criar agendador de notificações com horários específicos
+- [x] Integrar feed do Instagram no site
+- [x] Adicionar seção de galeria de fotos no site

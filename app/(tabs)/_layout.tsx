@@ -66,6 +66,13 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="instagram"
+        options={{
+          title: "Instagram",
+          tabBarIcon: ({ color }) => <IconSymbol size={26} name="camera.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="notificacoes"
         options={{
           title: "Notificações",
