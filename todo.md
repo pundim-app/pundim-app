@@ -31,3 +31,4 @@
 - [x] Criar agendador de notificações com horários específicos
 - [x] Integrar feed do Instagram no site
 - [x] Adicionar seção de galeria de fotos no site
+- [ ] Fazer deploy permanente em produção (sempre online 24/7)
