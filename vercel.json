@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "pnpm build && npx expo export --platform web --output-dir dist/web",
+  "buildCommand": "npx expo export --platform web --output-dir public",
   "installCommand": "pnpm install",
   "framework": null,
   "public": true,
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "outputDirectory": "dist/web"
+  "outputDirectory": "public"
 }

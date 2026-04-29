@@ -1,0 +1,13 @@
+node_modules
+.expo
+.expo-shared
+.git
+.gitignore
+README.md
+.env.local
+.env.*.local
+*.log
+coverage
+.turbo
+.next
+out
