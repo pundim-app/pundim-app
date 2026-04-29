@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "buildCommand": "npx expo export --platform web --output-dir dist-web",
-  "installCommand": "pnpm install",
-  "framework": null,
   "public": true,
-  "outputDirectory": "dist-web"
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/dist-web/$1"
+    }
+  ]
 }
