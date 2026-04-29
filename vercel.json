@@ -1,15 +1,15 @@
 {
   "version": 2,
   "buildCommand": "pnpm build",
-  "devCommand": "pnpm dev",
+  "devCommand": "pnpm dev:metro",
   "installCommand": "pnpm install",
-  "framework": "expo",
+  "framework": null,
   "public": true,
   "env": {
     "NODE_ENV": "production"
   },
   "functions": {
-    "api/**/*.ts": {
+    "server/**/*.ts": {
       "memory": 1024,
       "maxDuration": 60
     }
@@ -17,11 +17,11 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "dest": "/server/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/dist/index.html"
     }
   ]
 }
