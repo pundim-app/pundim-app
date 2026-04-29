@@ -4,5 +4,19 @@
   "installCommand": "pnpm install",
   "framework": null,
   "public": true,
-  "outputDirectory": "public"
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.ts"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
 }
